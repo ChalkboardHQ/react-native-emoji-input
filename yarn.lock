@@ -295,7 +295,7 @@ external-editor@^2.0.1:
     iconv-lite "^0.4.17"
     tmp "^0.0.33"
 
-fbjs@^0.8.16, fbjs@^0.8.9:
+fbjs@^0.8.9:
   version "0.8.16"
   resolved "https://registry.yarnpkg.com/fbjs/-/fbjs-0.8.16.tgz#5e67432f550dc41b572bf55847b8aca64e5337db"
   dependencies:
@@ -594,10 +594,10 @@ locate-path@^2.0.0:
     p-locate "^2.0.0"
     path-exists "^3.0.0"
 
-lodash-es@4.17.4:
-  version "4.17.4"
-  resolved "https://registry.yarnpkg.com/lodash-es/-/lodash-es-4.17.4.tgz#dcc1d7552e150a0640073ba9cb31d70f032950e7"
-  integrity sha1-3MHXVS4VCgZABzupyzHXDwMpUOc=
+lodash.debounce@4.0.8:
+  version "4.0.8"
+  resolved "https://registry.yarnpkg.com/lodash.debounce/-/lodash.debounce-4.0.8.tgz#82d79bff30a67c4005ffd5e2515300ad9ca4d7af"
+  integrity sha512-FT1yDzDYEoYWhnSGnpE/4Kj1fLZkDFyqRb7fNt6FdYOSxlUWAtp42Eh6Wb0rGIv/m9Bgo7x4GhQbm5Ys4SG5ow==
 
 lodash.isempty@^4.4.0:
   version "4.4.0"
@@ -877,21 +877,7 @@ promise@^7.1.1:
   dependencies:
     asap "~2.0.3"
 
-prop-types@15.5.8:
-  version "15.5.8"
-  resolved "https://registry.yarnpkg.com/prop-types/-/prop-types-15.5.8.tgz#6b7b2e141083be38c8595aa51fc55775c7199394"
-  dependencies:
-    fbjs "^0.8.9"
-
-prop-types@^15.5.10:
-  version "15.6.1"
-  resolved "https://registry.yarnpkg.com/prop-types/-/prop-types-15.6.1.tgz#36644453564255ddda391191fb3a125cbdf654ca"
-  dependencies:
-    fbjs "^0.8.16"
-    loose-envify "^1.3.1"
-    object-assign "^4.1.1"
-
-prop-types@^15.5.8, prop-types@^15.7.2:
+prop-types@15.8.1, prop-types@^15.5.10, prop-types@^15.5.8, prop-types@^15.7.2:
   version "15.8.1"
   resolved "https://registry.yarnpkg.com/prop-types/-/prop-types-15.8.1.tgz#67d87bf1a694f48435cf332c24af10214a3140b5"
   integrity sha512-oj87CgZICdulUohogVAR7AjlC0327U4el4L6eAvOqCeudMDVU0NThNaV+b9Df4dXgSP1gXMTnPdhfe/2qDH5cg==
@@ -965,13 +951,13 @@ read-pkg@^2.0.0:
     normalize-package-data "^2.3.2"
     path-type "^2.0.0"
 
-recyclerlistview@^1.3.4:
-  version "1.3.4"
-  resolved "https://registry.yarnpkg.com/recyclerlistview/-/recyclerlistview-1.3.4.tgz#4c0e57d19d5480d3c4e7e5abc45b23ca7ce09a5f"
-  integrity sha1-TA5X0Z1UgNPE5+WrxFsjynzgml8=
+recyclerlistview@^4.2.0:
+  version "4.2.0"
+  resolved "https://registry.yarnpkg.com/recyclerlistview/-/recyclerlistview-4.2.0.tgz#a140149aaa470c9787a1426452651934240d69ef"
+  integrity sha512-uuBCi0c+ggqHKwrzPX4Z/mJOzsBbjZEAwGGmlwpD/sD7raXixdAbdJ6BTcAmuWG50Cg4ru9p12M94Njwhr/27A==
   dependencies:
-    lodash-es "4.17.4"
-    prop-types "15.5.8"
+    lodash.debounce "4.0.8"
+    prop-types "15.8.1"
     ts-object-utils "0.0.5"
 
 regenerator-runtime@^0.10.0:
