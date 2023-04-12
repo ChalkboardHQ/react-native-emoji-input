@@ -7,10 +7,12 @@ import {
     Platform,
     TextInput,
     Dimensions,
-    AsyncStorage,
     TouchableOpacity,
     TouchableWithoutFeedback,
 } from 'react-native';
+
+import AsyncStorage from '@react-native-async-storage/async-storage';
+
 import {
     RecyclerListView,
     DataProvider,
