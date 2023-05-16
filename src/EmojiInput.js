@@ -540,6 +540,7 @@ class EmojiInput extends React.PureComponent {
                       ref={input => {
                           this.textInput = input;
                       }}
+                      keyboardAppearance={isDark ? 'dark' : 'light'}
                       placeholderTextColor={placeholderTextColor}
                       style={searchStyle}
                       returnKeyType={'search'}
