@@ -494,6 +494,7 @@ class EmojiInput extends React.PureComponent {
                     flexWrap       : 'wrap'
                 }}
                 sections={sections}
+                keyboardDismissMode='on-drag'
                 renderItem={this._itemSection}
                 keyboardShouldPersistTaps={'handled'}
                 stickySectionHeadersEnabled={false}
